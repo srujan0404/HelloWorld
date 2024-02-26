@@ -2,7 +2,7 @@
 //  ContentView.swift
 //  HelloWorld
 //
-//  Created by Sai Venkatesh Alampally on 26/02/24.
+//  Created by Srujan Dharma on 26/02/24.
 //
 
 import SwiftUI
@@ -22,9 +22,9 @@ struct ContentView: View {
             Model3D(named: "Scene", bundle: realityKitContentBundle)
                 .padding(.bottom, 50)
 
-            Text("Hello, world!")
+            Text("Hello, I am Srujan from Scaler School of Technology")
 
-            Toggle("Show ImmersiveSpace", isOn: $showImmersiveSpace)
+            Toggle("Show My College Life", isOn: $showImmersiveSpace)
                 .font(.title)
                 .frame(width: 360)
                 .padding(24)

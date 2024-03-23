@@ -22,7 +22,10 @@ struct ContentView: View {
             Model3D(named: "Scene", bundle: realityKitContentBundle)
                 .padding(.bottom, 50)
 
-            Text("Hello, world!")
+            Picker("choose an option", selection: $selectedOption){
+                Text("Option 1:").tag(1)
+                Text("Option 2:").tag(2)
+            }
 
             Toggle("Show ImmersiveSpace", isOn: $showImmersiveSpace)
                 .font(.title)

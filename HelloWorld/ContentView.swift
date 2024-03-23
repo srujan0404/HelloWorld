@@ -2,7 +2,7 @@
 //  ContentView.swift
 //  HelloWorld
 //
-//  Created by Sai Venkatesh Alampally on 26/02/24.
+//  Created by Srujan Dharma on 26/02/24.
 //
 
 import SwiftUI
@@ -27,7 +27,9 @@ struct ContentView: View {
                 Text("Option 2:").tag(2)
             }
 
-            Toggle("Show ImmersiveSpace", isOn: $showImmersiveSpace)
+            Text("Hello, I am Srujan from Scaler School of Technology")
+
+            Toggle("Show My College Life", isOn: $showImmersiveSpace)
                 .font(.title)
                 .frame(width: 360)
                 .padding(24)

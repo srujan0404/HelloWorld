@@ -21,12 +21,7 @@ struct ContentView: View {
         VStack {
             Model3D(named: "Scene", bundle: realityKitContentBundle)
                 .padding(.bottom, 50)
-
-            Picker("choose an option", selection: $selectedOption){
-                Text("Option 1:").tag(1)
-                Text("Option 2:").tag(2)
-            }
-
+                
             Text("Hello, I am Srujan from Scaler School of Technology")
 
             Toggle("Show My College Life", isOn: $showImmersiveSpace)
